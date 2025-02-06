@@ -31,31 +31,35 @@ height: 293px;
 .header_menu {
 display: flex;
 flex-direction: row;
-}
-
-.header_menu-item_active {
-list-style: none;
-text-decoration: none;
+justify-content: center;
 }
 
 .header_menu-list {
 display: flex;
 gap:30px;
-text-decoration: underline;
 }
 
 .header_menu-item {
 list-style: circle;
+text-decoration: underline;
 }
 
-.header_menu-link {
-
+.header__links-list-item_no-bullit {
+list-style: none;
+text-decoration: none;
 }
 
 .header_logo-image {
 width: 148px;
 height: 105px;
 padding: 0;
+}
+
+.header_address {
+max-width: 240px;
+display: grid;
+justify-self: end;
+line-height: 0.6;
 }
 
 .cover {
