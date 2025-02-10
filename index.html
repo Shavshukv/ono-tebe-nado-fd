@@ -1,4 +1,4 @@
-a<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -17,7 +17,7 @@ a<!DOCTYPE html>
             <a>главная</a> 
           </li>
           <li class="header_menu-item">
-            <a>посмотреть лоты</a> 
+            <a href="#lots">посмотреть лоты</a> 
           </li>
           <li class="header_menu-item">
             <a>об аукционе</a> 
@@ -32,30 +32,50 @@ a<!DOCTYPE html>
           />
       </a class="address">
         <address class="header_address">
-          <a href="tel:+70000000">+9 999 555 5555</a><br>
+          <a href="tel:+99995555555">+9 999 555 5555</a><br>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
           <a>наб Принсенграхт 263-</a><br>
           <a>265,Амстердам</a>
         </address>
     </header>
-    <main>
+    <main class=>
       <section class="cover">
-        <h1></h1>
-        <section class="description">
-          <p></p>
-          <button></button>
+        <div class="overlay"></div>  
+        <h1 class="cover_title">
+          <span class="aligned-text">ОНО</span>
+          <span class="aligned-text_center">ТЕБЕ</span>
+          <span class="aligned-text_right">НАДО</span>
+        </h1>
+        <section class="cover__description">
+          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+          <button class="bet-button">Сделать ставку</button>
         </section>
       </section>
-      <section  class="lots">
-        <h2></h2>
-        <ul>
-          <li></li>
+      <section class="lots" id="lots">
+        <h2 class="lots__heading">Лоты</h2>
+        <ul class="lots_card-list">
+          <li class="lots__card-list-films">
+            <div class="overlay"></div>
+            <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+            <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+          </li>
+          <li class="lots__card-list-books">
+            <div class="overlay"></div>
+            <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+            <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+          </li>
+          <li class="lots__card-list-arts">
+            <div class="overlay"></div>
+            <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+            <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+          </li>
         </ul>
+        <a href="#" class="lots__look-more-link">посмотреть больше</a>
       </section>
-      <section class="about">
+      <div class="about">
         <section></section>
         <section></section>
-      </section>
+      </div>
     </main>
     <footer></footer>
   </body>
