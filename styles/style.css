@@ -290,12 +290,15 @@ height: 180px;
 width: 264.57px;
 height: 98px;
 margin-left: 50px;
+font-size: 18px;
+text-underline-offset: 4px;
+font-style: normal;
+
 }
 
 .footer__menu {
 width: 163.9px;
 height: 64px;
-
 }
     
 .footer__menu-list {
