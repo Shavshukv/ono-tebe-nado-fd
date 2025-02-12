@@ -1,8 +1,8 @@
 .body {
-background-color: #FFFFFF;
 width: 1100px;
 height: 3028px;
 font-family:Raleway-Regular, sans-serif;
+background-color: #FFFFFF;
 }
 
 .header {
@@ -20,25 +20,25 @@ justify-content: flex-start;
 }
 
 .header_menu-list {
-width: 391.48px;
-height: 22px;
 display: flex;
 gap: 34px;
+width: 391.48px;
+height: 22px;
 margin-left: 50px;
 font-size: 18px;
 text-underline-offset: 4px;
 }
 
 .header_menu-item {
-list-style: circle;
 text-decoration: underline;
+list-style: circle;
 }
 
 .header__links-list-item_no-bullit {
-height: 21px;
 width: 67px;
-list-style: none;
+height: 21px;
 text-decoration: none;
+list-style: none;
 }
 
 .header_logo-image {
@@ -47,47 +47,47 @@ height: 105px;
 }
 
 .header_address {
-max-width: 240px;
 display: grid;
 justify-self: end;
+max-width: 240px;
 line-height: 0.6;
 text-underline-offset: 4px;
 }
 
 .cover {
-min-height: 757px;
-width: 1100px;
 position: relative;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
+width: 1100px;
+min-height: 757px;
+background-image: url(../images/cover.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-background-image: url(../images/cover.jpg);
 }
 
 .overlay {
-position: absolute; 
-width: 100%; 
-height: 100%; 
-background-color: #00000099;
+position: absolute;
 z-index: 1;
+width: 100%;
+height: 100%;
+background-color: #00000099;
 }
 
 .cover_title {
-width: 1000px;
-height: 385px;
+z-index: 2;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+width: 1000px;
+height: 385px;
+margin-top: 165px;
 color: #FFFFFF;
 font-size: 100px;
 line-height: 115px;
 letter-spacing: 30px;
-margin-top: 165px;
-z-index: 2;
 }
 
 .aligned-text {
@@ -116,22 +116,22 @@ margin-right: -30px;
 }
 
 .cover__description {
-width: 1000px;
-height: 51px;
+z-index: 2;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+width: 1000px;
+height: 51px;
 margin-bottom: 50px;
-z-index: 2;
 }
 
 .cover__description-text {
-color: #FFFFFF;
-font-size: 22px;
-text-transform: uppercase;
 display: flex;
 justify-content: center;
 align-items: center;
+color: #FFFFFF;
+font-size: 22px;
+text-transform: uppercase;
 word-spacing: 18.5px;
 }
 
@@ -139,18 +139,18 @@ word-spacing: 18.5px;
 width: 256px;
 height: 51px;
 border: 1px solid #FFFFFF;
-background-color: transparent;
 color: #FFFFFF;
-text-transform: uppercase;
 font-size: 22px;
+text-transform: uppercase;
+background-color: transparent;
 }
 
 .lots {
+display: flex;
+flex-direction: column;
 width: 1052px;
 height: 723px;
 margin: 180px 24px 0;
-display: flex;
-flex-direction: column;
 
 }
 
@@ -161,95 +161,95 @@ text-transform: uppercase;
 }
 
 .lots_card-list {
-margin-top: 27px;
 display: flex;
 flex-direction: row;
 gap: 25px;
+margin-top: 27px;
 list-style: none;
 }
 
 .lots__card-list-films {
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 width: 334px;
 min-height: 596px;
 font-style: solid;
-position: relative;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+background-image: url(../images/card-lot-01.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-background-image: url(../images/card-lot-01.jpg);  
 }
 
 .lots__card-list-books {
-width: 334px;
-min-height: 596px;
 position: relative;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+width: 334px;
+min-height: 596px;
+background-image: url(../images/card-lot-02.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-background-image: url(../images/card-lot-02.jpg);
 }
 
 .lots__card-list-arts {
-width: 334px;
-min-height: 596px;
 position: relative;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+width: 334px;
+min-height: 596px;
+background-image: url(../images/card-lot-03.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-background-image: url(../images/card-lot-03.jpg);
 }
 
 .card__title {
-margin: 48px 40px 0 40px;
-text-transform: uppercase;
-font-size: 22px;
-color: #FFFFFF;
-text-decoration: underline;
 z-index: 2;
+margin: 48px 40px 0 40px;
+color: #FFFFFF;
+font-size: 22px;
+text-decoration: underline;
+text-transform: uppercase;
 }
 
 .card__text {
+z-index: 2;
 margin: 0 40px 48px 40px;
 color: #FFFFFF;
 font-size: 20px;
-z-index: 2;
 }
 
 .lots__look-more-link {
-font-size: 20px;
 margin: 30px 0 0 40px;
+font-size: 20px;
 text-decoration: underline;
-text-underline-offset: 4px;
 text-decoration-thickness: 1px;
+text-underline-offset: 4px;
 }
 
 .about {
+display: grid;
+grid-template-columns: 334px auto;
 width: 1052px;
 height: 595px;
 margin: 120px 24px 180px 24px;
-display: grid;
-grid-template-columns: 334px auto;
 }
 
 .about__logo {
-width: 240px;
-height: 240px;
-margin: 35px 0 0 47px;
-background-color: #000000;
-object-fit: cover;
-border-radius: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
+width: 240px;
+height: 240px;
+margin: 35px 0 0 47px;
+border-radius: 50%;
+object-fit: cover;
+background-color: #000000;
 }
 
 .about__logo-image {
@@ -274,8 +274,8 @@ font-size: 20px;
 }
 
 .whitespace_about-text {
-margin-bottom: 24px;
 margin-top: 100px;
+margin-bottom: 24px;
 }
 
 .footer {
@@ -291,8 +291,8 @@ width: 264.57px;
 height: 98px;
 margin-left: 50px;
 font-size: 18px;
-text-underline-offset: 4px;
 font-style: normal;
+text-underline-offset: 4px;
 
 }
 
@@ -305,8 +305,8 @@ height: 64px;
 display: flex;
 flex-direction: column;
 flex-wrap: nowrap;
-text-align: center;
 font-size: 18px;
+text-align: center;
 text-underline-offset: 4px;
 }
     
@@ -320,14 +320,14 @@ list-style: none;
 }
 
 .footer__social-list {
-width: 240px;
-height: 48px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-list-style: none;
+width: 240px;
+height: 48px;
 margin-right: 50px;
 margin-left: 180px;
+list-style: none;
 }
 
 .footer_logo-image {
