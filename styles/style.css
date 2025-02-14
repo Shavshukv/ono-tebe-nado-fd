@@ -1,16 +1,9 @@
-.body {
-width: 1100px;
-height: 3028px;
-font-family:Raleway-Regular, sans-serif;
-background-color: #FFFFFF;
-}
-
 .header {
 display: grid;
 grid-template-columns: 1fr min-content 1fr;
 align-items: center;
 width: 1100px;
-height: 293px;
+padding:92px 0 92px 0;
 }
 
 .header_menu {
@@ -22,22 +15,15 @@ justify-content: flex-start;
 .header_menu-list {
 display: flex;
 gap: 34px;
-width: 391.48px;
-height: 22px;
 margin-left: 50px;
 font-size: 18px;
 text-underline-offset: 4px;
 }
 
 .header_menu-item {
-text-decoration: underline;
 list-style: circle;
 }
-
-.header__links-list-item_no-bullit {
-width: 67px;
-height: 21px;
-text-decoration: none;
+.header_menu-item:first-child {
 list-style: none;
 }
 
@@ -47,11 +33,12 @@ height: 105px;
 }
 
 .header_address {
-display: grid;
-justify-self: end;
-max-width: 240px;
-line-height: 0.6;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24.3px;
 text-underline-offset: 4px;
+padding-left: 170px;
 }
 
 .cover {
@@ -82,7 +69,6 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 width: 1000px;
-height: 385px;
 margin-top: 165px;
 color: #FFFFFF;
 font-size: 100px;
@@ -121,7 +107,6 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 width: 1000px;
-height: 51px;
 margin-bottom: 50px;
 }
 
@@ -149,9 +134,7 @@ background-color: transparent;
 display: flex;
 flex-direction: column;
 width: 1052px;
-height: 723px;
 margin: 180px 24px 0;
-
 }
 
 .lots__heading {
@@ -160,52 +143,36 @@ font-size: 40px;
 text-transform: uppercase;
 }
 
-.lots_card-list {
+.lots__card-list {
 display: flex;
+flex-wrap: wrap;
 flex-direction: row;
 gap: 25px;
 margin-top: 27px;
 list-style: none;
 }
 
-.lots__card-list-films {
+.lots__card-item {
 position: relative;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 width: 334px;
 min-height: 596px;
-font-style: solid;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.lots_background_image-films {
 background-image: url(../images/card-lot-01.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
 }
-
-.lots__card-list-books {
-position: relative;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-width: 334px;
-min-height: 596px;
+.lots_background_image-books {
 background-image: url(../images/card-lot-02.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
 }
 
-.lots__card-list-arts {
-position: relative;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-width: 334px;
-min-height: 596px;
+.lots_background_image-arts {
 background-image: url(../images/card-lot-03.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
 }
 
 .card__title {
@@ -236,7 +203,6 @@ text-underline-offset: 4px;
 display: grid;
 grid-template-columns: 334px auto;
 width: 1052px;
-height: 595px;
 margin: 120px 24px 180px 24px;
 }
 
@@ -259,8 +225,7 @@ height: 114px;
 
 .about__column {
 width: 693px;
-height: 449px;
-margin: 133px 0 3px 0;
+margin: 134px 0 3px 23px;
 }
 
 .about__title {
@@ -279,26 +244,24 @@ margin-bottom: 24px;
 }
 
 .footer {
+padding-bottom: 58px;
 display: grid;
 grid-template-columns: 1fr min-content 1fr;
 align-items: start;
 width: 1100px;
-height: 180px;
 }
 
 .footer_address {
-width: 264.57px;
-height: 98px;
-margin-left: 50px;
+font-weight: 400;
+padding-left: 50px;
 font-size: 18px;
 font-style: normal;
 text-underline-offset: 4px;
-
+line-height: 24.3px;
 }
 
 .footer__menu {
 width: 163.9px;
-height: 64px;
 }
     
 .footer__menu-list {
@@ -310,22 +273,20 @@ text-align: center;
 text-underline-offset: 4px;
 }
     
-.footer__menu-list-item {
+.footer_menu-list-item {
 list-style: none;
 }
-    
-.footer__menu-link_active {
+
+.footer_menu-list-active,
+.header__link_active {
 text-decoration: none;
-list-style: none;
 }
 
 .footer__social-list {
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-width: 240px;
-height: 48px;
-margin-right: 50px;
+padding-right: 50px;
 margin-left: 180px;
 list-style: none;
 }

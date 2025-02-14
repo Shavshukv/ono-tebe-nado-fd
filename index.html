@@ -13,8 +13,8 @@
     <header class="header" id="header">
       <nav class="header_menu">
         <ul class="header_menu-list">
-          <li class="header__links-list-item_no-bullit">
-            <a>главная</a>
+          <li class="header_menu-item">
+            <a href="#0" class="header__link_active">главная</a>
           </li>
           <li class="header_menu-item">
             <a href="#lots">посмотреть лоты</a>
@@ -24,7 +24,7 @@
           </li>
         </ul>
       </nav>
-      <a class="header_logo">
+      <a href="#0" class="header_logo">
         <img
           class="header_logo-image"
           src="./images/logo-black.svg"
@@ -34,8 +34,8 @@
       <address class="header_address">
         <a href="tel:+99995555555">+9 999 555 5555</a><br />
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
-        <a>наб Принсенграхт 263-</a><br />
-        <a>265,Амстердам</a>
+        <p>наб Принсенграхт 263-</p>
+        <p>265,Амстердам</p>
       </address>
     </header>
     <main>
@@ -46,17 +46,17 @@
           <span class="aligned-text_center">ТЕБЕ</span>
           <span class="aligned-text_right">НАДО</span>
         </h1>
-        <section class="cover__description">
+        <div class="cover__description">
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
           <button class="bet-button">Сделать ставку</button>
-        </section>
+        </div>
       </section>
       <section class="lots" id="lots">
         <h2 class="lots__heading">Лоты</h2>
-        <ul class="lots_card-list">
-          <li class="lots__card-list-films">
+        <ul class="lots__card-list">
+          <li class="lots__card-item lots_background_image-films">
             <div class="overlay"></div>
             <h3 class="card__title">
               Фильм режиссёра, который бросил киношколу
@@ -66,7 +66,7 @@
               ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
             </p>
           </li>
-          <li class="lots__card-list-books">
+          <li class="lots__card-item lots_background_image-books">
             <div class="overlay"></div>
             <h3 class="card__title">
               Книга, где описан один скучный день из жизни рекламного агента
@@ -79,7 +79,7 @@
               бы вы поставили на «Улисса» Джеймса Джойса?
             </p>
           </li>
-          <li class="lots__card-list-arts">
+          <li class="lots__card-item lots_background_image-arts">
             <div class="overlay"></div>
             <h3 class="card__title">
               Картина, которую повторит даже 5-летний сын маминой подруги
@@ -126,25 +126,25 @@
       <address class="footer_address">
         <a href="tel:+99995555555">+9 999 555 5555</a><br />
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
-        <a>наб Принсенграхт 263-265,</a><br />
-        <a>Амстердам</a>
+        <p>наб Принсенграхт 263-265,</p>
+        <p>Амстердам</p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
-          <li class="footer__menu-link_active">
-            <a>главная</a>
+          <li class="footer_menu-list-item">
+            <a href="#header" class="footer_menu-list-active">главная</a>
           </li>
-          <li class="footer__menu-list-item">
+          <li class="footer_menu-list-item">
             <a href="#lots">посмотреть лоты</a>
           </li>
-          <li class="footer__menu-list-item">
+          <li class="footer_menu-list-item">
             <a href="#about">об аукционе</a>
           </li>
         </ul>
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a href="#" class="footer__social-link"></a>
+          <a href="#0" class="footer__social-link"></a>
           <img
             class="footer_logo-image"
             src="./images/yt.svg"
@@ -152,7 +152,7 @@
           />
         </li>
         <li class="footer__social-list-item">
-          <a href="#" class="footer__social-link"></a>
+          <a href="#0" class="footer__social-link"></a>
           <img
             class="footer_logo-image"
             src="./images/vk.svg"
@@ -160,7 +160,7 @@
           />
         </li>
         <li class="footer__social-list-item">
-          <a href="#" class="footer__social-link"></a>
+          <a href="#0" class="footer__social-link"></a>
           <img
             class="footer_logo-image"
             src="./images/pinterest.svg"
