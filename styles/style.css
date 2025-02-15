@@ -37,13 +37,13 @@
 }
 
 .address {
+  width: 100%;
   max-width: 285px;
-  width: 100%; 
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
-  text-underline-offset: 4px; 
+  text-underline-offset: 4px;
 }
 
 .cover {
