@@ -33,12 +33,17 @@
 }
 
 .header_address {
-  padding-left: 170px;
+  margin-left: auto;
+}
+
+.address {
+  max-width: 285px;
+  width: 100%; 
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
-  text-underline-offset: 4px;
+  text-underline-offset: 4px; 
 }
 
 .cover {
@@ -68,6 +73,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 20px;
   width: 1000px;
   margin-top: 165px;
   color: #ffffff;
@@ -251,13 +257,8 @@
   padding-bottom: 58px;
 }
 
-.footer_address {
+.footer__address {
   padding-left: 50px;
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 24.3px;
-  text-underline-offset: 4px;
 }
 
 .footer__menu {
